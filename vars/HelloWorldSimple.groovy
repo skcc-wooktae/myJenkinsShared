@@ -1,3 +1,3 @@
 def call(Map args) {
-    bat "echo Hello World %args.name%"
+    bat "echo Hello World ${args.name}".toString()
 }
