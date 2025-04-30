@@ -1,3 +1,3 @@
-def helloWorld(String name) {
-    bat "echo Hello World %name%"
+def call(Map args) {
+    bat "echo Hello World ${args.name}"
 }
